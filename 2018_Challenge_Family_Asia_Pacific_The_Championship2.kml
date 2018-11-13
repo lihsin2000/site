@@ -6,13 +6,13 @@
 	<Style id="1">
 		<LineStyle>
 			<color>ffff6712</color>
-			<width>3</width>
+			<width>5</width>
 		</LineStyle>
 	</Style>
 	<Style id="2">
 		<LineStyle>
 			<color>ff0000ff</color>
-			<width>5</width>
+			<width>3</width>
 		</LineStyle>
 	</Style>
 	<Placemark>
