@@ -18,7 +18,7 @@
 	<Style id="style">
 		<LineStyle>
 			<color>ffff0000</color>
-			<width>4</width>
+			<width>3</width>
 		</LineStyle>
 		<PolyStyle>
 			<fill>0</fill>
@@ -37,7 +37,7 @@
 	<Style id="style0">
 		<LineStyle>
 			<color>ffff0000</color>
-			<width>4</width>
+			<width>3</width>
 		</LineStyle>
 		<PolyStyle>
 			<fill>0</fill>
