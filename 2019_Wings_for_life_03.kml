@@ -2,39 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2019_Wings_for_life_03.kml</name>
-	<Style id="listing_A">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-			<text>$[description]</text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hospitals">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_hospitals">
 		<Pair>
 			<key>normal</key>
@@ -45,6 +22,22 @@
 			<styleUrl>#sh_hospitals</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_hospitals">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
 	<Style id="style">
 		<LineStyle>
 			<color>ffff0000</color>
@@ -54,16 +47,23 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="listing_A0">
+	<Style id="style1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_hospitals">
 		<IconStyle>
-			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<BalloonStyle>
-			<text>$[description]</text>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
@@ -90,15 +90,6 @@
 			<styleUrl>#style2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style1">
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="style2">
 		<LineStyle>
 			<color>ffff0000</color>
@@ -108,88 +99,42 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_hospitals">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
-	<StyleMap id="stylemap_id0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="listing_A1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#listing_A0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#listing_A</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>2019_Wings_for_life</name>
 		<open>1</open>
-		<Placemark id="1.2.1">
+		<Placemark>
 			<name>衛生福利部豐原醫院</name>
-			<address>420台中市豐原區安康路100號</address>
-			<phoneNumber>04 2527 1180</phoneNumber>
-			<snippet>420台中市豐原區安康路100號</snippet>
-			<styleUrl>#listing_A1</styleUrl>
-			<ExtendedData>
-				<Data name="placepageUri">
-					<value>https://www.google.com/earth/rpc/entity?lat=24.242679199999998&amp;lng=120.7256176&amp;fid=0x34691a1c8d492607:0x32cd4cd82d94db4f&amp;hl=zh-TW&amp;gl=tw&amp;client=earth-client&amp;cv=7.3.2.5776&amp;useragent=GoogleEarth/7.3.2.5776(Windows;Microsoft Windows (6.2.9200.0);zh-Hant;kml:2.2;client:Pro;type:default)</value>
-				</Data>
-			</ExtendedData>
-			<MultiGeometry>
-				<Point>
-					<coordinates>120.7256176,24.2426792,0</coordinates>
-				</Point>
-				<LinearRing>
-					<coordinates>
-						120.7216280718673,24.23968705390048,0 120.7216280718673,24.24567134609951,0 120.7296071281327,24.24567134609951,0 120.7296071281327,24.23968705390048,0 120.7216280718673,24.23968705390048,0 
-					</coordinates>
-				</LinearRing>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="1.2.1">
-			<name>童綜合醫療社團法人童綜合醫院梧棲院區</name>
-			<address>435台中市梧棲區台灣大道八段699號</address>
-			<phoneNumber>04 2658 1919</phoneNumber>
-			<snippet>435台中市梧棲區台灣大道八段699號</snippet>
+			<LookAt>
+				<longitude>120.7256166666667</longitude>
+				<latitude>24.24267920000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>45</tilt>
+				<range>1000</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
 			<styleUrl>#msn_hospitals</styleUrl>
-			<ExtendedData>
-				<Data name="placepageUri">
-					<value>https://www.google.com/earth/rpc/entity?lat=24.247100999999997&amp;lng=120.542571&amp;fid=0x346914c4d358ad61:0x4f7a4c3fd06393b9&amp;hl=zh-TW&amp;gl=tw&amp;client=earth-client&amp;cv=7.3.2.5776&amp;useragent=GoogleEarth/7.3.2.5776(Windows;Microsoft Windows (6.2.9200.0);zh-Hant;kml:2.2;client:Pro;type:default)</value>
-				</Data>
-			</ExtendedData>
-			<MultiGeometry>
-				<Point>
-					<coordinates>120.542571,24.247101,0</coordinates>
-				</Point>
-				<LinearRing>
-					<coordinates>
-						120.5385816034636,24.24410895259771,0 120.5385816034636,24.25009304740229,0 120.5465603965364,24.25009304740229,0 120.5465603965364,24.24410895259771,0 120.5385816034636,24.24410895259771,0 
-					</coordinates>
-				</LinearRing>
-			</MultiGeometry>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>120.7256166666667,24.24267920000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>童綜合醫療社團法人童綜合醫院梧棲院區</name>
+			<LookAt>
+				<longitude>120.542571</longitude>
+				<latitude>24.2471</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>45</tilt>
+				<range>1000</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_hospitals</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>120.542571,24.2471,0</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
 			<name>1</name>
