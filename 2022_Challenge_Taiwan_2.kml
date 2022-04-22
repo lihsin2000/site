@@ -2,78 +2,34 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2022_Challenge_Taiwan_2.kml</name>
-	<StyleMap id="stylemap_id0">
+	<open>1</open>
+	<StyleMap id="icon-1624-C2185B-nodesc">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style8</styleUrl>
+			<styleUrl>#icon-1624-C2185B-nodesc-normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style9</styleUrl>
+			<styleUrl>#icon-1624-C2185B-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style10">
+	<Style id="style8">
 		<LineStyle>
-			<color>ff0834db</color>
+			<color>ff149fdb</color>
 			<width>6</width>
 		</LineStyle>
 		<PolyStyle>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style1">
-		<LineStyle>
-			<color>ffffff55</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style5">
-		<LineStyle>
-			<color>ff1fdb6c</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style7">
-		<LineStyle>
-			<color>ff1fdb6c</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>ffffff55</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style3">
-		<LineStyle>
-			<color>ffdb14d2</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id2">
+	<StyleMap id="stylemap_id6">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style</styleUrl>
+			<styleUrl>#style2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style10</styleUrl>
+			<styleUrl>#style1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="style9">
@@ -85,79 +41,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="style8">
-		<LineStyle>
-			<color>ff149fdb</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style">
-		<LineStyle>
-			<color>ff0834db</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="icon-1624-C2185B-nodesc-highlight">
-		<IconStyle>
-			<color>ff5b18c2</color>
-			<Icon>
-				<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="stylemap_id1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-1624-C2185B-nodesc-normal">
-		<IconStyle>
-			<color>ff5b18c2</color>
-			<Icon>
-				<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="style6">
-		<LineStyle>
-			<color>ffdb14d2</color>
-			<width>6</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="style0">
+	<Style id="style4">
 		<LineStyle>
 			<color>ffdb5a1f</color>
 			<width>6</width>
@@ -176,6 +60,42 @@
 			<styleUrl>#style3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1624-C2185B-nodesc-highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="stylemap_id4">
 		<Pair>
 			<key>normal</key>
@@ -186,17 +106,87 @@
 			<styleUrl>#style0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="icon-1624-C2185B-nodesc">
+	<Style id="style10">
+		<LineStyle>
+			<color>ff0834db</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff1fdb6c</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1624-C2185B-nodesc-normal">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="stylemap_id2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#icon-1624-C2185B-nodesc-normal</styleUrl>
+			<styleUrl>#style</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#icon-1624-C2185B-nodesc-highlight</styleUrl>
+			<styleUrl>#style10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style4">
+	<Style id="style2">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ffdb14d2</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff1fdb6c</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
 		<LineStyle>
 			<color>ffdb5a1f</color>
 			<width>6</width>
@@ -205,8 +195,26 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ffdb14d2</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0834db</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Folder>
-		<name>2022_Challenge_Taiwan</name>
+		<name>point</name>
 		<open>1</open>
 		<Placemark>
 			<name>醫護站 Medical Tent</name>
@@ -271,6 +279,10 @@
 				<coordinates>121.1590511,22.7631297,0</coordinates>
 			</Point>
 		</Placemark>
+	</Folder>
+	<Folder>
+		<name>track</name>
+		<open>1</open>
 		<Placemark>
 			<name>小鐵人 Run</name>
 			<styleUrl>#stylemap_id0</styleUrl>
