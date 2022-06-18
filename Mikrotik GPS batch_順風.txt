@@ -1,0 +1,27 @@
+:local devid
+:local spd
+:local alti
+:local lat
+:local lon
+:local vld
+
+:set $devid "plane1"
+
+:local sendurl "http://220.134.113.161"
+
+/system gps monitor once do={
+:set $vld $("valid")
+:set $lat $("latitude")
+:set $lon $("longitude")
+:set $spd $("speed")
+:set $alti $("altitude")
+:set $heading $("true-bearing")
+}
+
+if ($vld = true) do {
+:set $alti [:pick $alti 0 [:find $alti "m" -1]]
+:set $spd [:pick $spd 0 [:find $spd " km/h" -1]]
+:set $heading [:pick $heading 0 [:find $heading " deg. True" -1]]
+:local senddata ("\?id=" . $devid. "&lat=" . $lat . "&lon=" . $lon . "&altitude=" . $alti . "&speed=" . $spd . "&heading=" . $heading)
+/tool fetch mode=https url=$sendurl port=32768 http-method=post http-data=$senddata http-header-field="Content-Type: application/x-www-form-urlencoded" output=none
+}
