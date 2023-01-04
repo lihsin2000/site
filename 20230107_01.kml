@@ -20,22 +20,22 @@
 		<SimpleField type="int" name="number"></SimpleField>
 		<SimpleField type="string" name="type"></SimpleField>
 	</Schema>
-	<StyleMap id="default">
+	<Style id="default">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="default0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#default0</styleUrl>
+			<styleUrl>#default</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="default0">
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>6</width>
-		</LineStyle>
-	</Style>
 	<Style id="hl">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -68,11 +68,11 @@
 	<StyleMap id="msn_red-cross">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-cross1</styleUrl>
+			<styleUrl>#sn_red-cross0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-cross1</styleUrl>
+			<styleUrl>#sh_red-cross</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-cross0">
@@ -85,19 +85,9 @@
 			<styleUrl>#sh_red-cross0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-cross1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-cross0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-cross</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_hospitals">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>0.583333</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
 			</Icon>
@@ -122,7 +112,7 @@
 	</Style>
 	<Style id="sh_red-cross">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.48</scale>
 			<Icon>
 				<href>https://raw.githubusercontent.com/lihsin2000/site/master/red-cross.png</href>
 			</Icon>
@@ -144,21 +134,9 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-cross1">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://raw.githubusercontent.com/lihsin2000/site/master/red-cross.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sn_hospitals">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
 			</Icon>
@@ -195,17 +173,7 @@
 	</Style>
 	<Style id="sn_red-cross0">
 		<IconStyle>
-			<Icon>
-				<href>https://raw.githubusercontent.com/lihsin2000/site/master/red-cross.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-cross1">
-		<IconStyle>
+			<scale>0.4</scale>
 			<Icon>
 				<href>https://raw.githubusercontent.com/lihsin2000/site/master/red-cross.png</href>
 			</Icon>
@@ -313,7 +281,7 @@
 	</Placemark>
 	<Placemark>
 		<name>CP9鄒族享愛情咖啡(119.5k)</name>
-		<styleUrl>#msn_red-cross1</styleUrl>
+		<styleUrl>#msn_red-cross</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#__course_140824836__waypoints">
 				<SimpleData name="fid">19</SimpleData>
@@ -373,7 +341,7 @@
 	</Placemark>
 	<Placemark id="__reprojected.1">
 		<name>route</name>
-		<styleUrl>#default</styleUrl>
+		<styleUrl>#default0</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#__reprojected.schema">
 				<SimpleData name="fid">1</SimpleData>
