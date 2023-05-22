@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ww-airspace_01.kml</name>
+	<StyleMap id="msn_airports">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_airports0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_airports">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffaa00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_airports0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fcffffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_airports">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_airports0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffaa00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaa00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fcffffaa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff55ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>空域</name>
+		<open>1</open>
+		<Placemark>
+			<name>貓羅溪A區</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.6379590334659,24.06558164973997,0 120.6297275121642,24.0588770189597,0 120.6280892388997,24.05611317698193,0 120.6312317690246,24.01697355655399,0 120.6457375945327,24.015258483243,0 120.6379590334659,24.06558164973997,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>貓羅溪A區</name>
+			<LookAt>
+				<longitude>120.6292964136548</longitude>
+				<latitude>24.03574804065601</latitude>
+				<altitude>0</altitude>
+				<heading>-0.008753094358606755</heading>
+				<tilt>8.342673050629267</tilt>
+				<range>6129.982890052766</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_airports0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>120.6338893471037,24.04003827179259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>貓羅溪B區</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.6309728621994,24.01588288820068,0 120.6202440760672,23.97699330575486,0 120.6484524429692,23.95410562659886,0 120.6547862812389,23.95670175523589,0 120.6455169391034,24.0145422553864,0 120.6309728621994,24.01588288820068,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>貓羅溪B區</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>120.6324560071326</longitude>
+				<latitude>24.01162022940955</latitude>
+				<altitude>0</altitude>
+				<heading>-0.006534957441425564</heading>
+				<tilt>8.350196524977813</tilt>
+				<range>11169.7985081744</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_airports</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>120.6411338463631,23.98419600294672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大里B區</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.638199218488,24.06496853384611,0 120.6455484064044,24.01439970722319,0 120.6696593284978,23.99260357578665,0 120.6678578796755,24.01394674149589,0 120.6849447608718,24.05158155613481,0 120.688688839371,24.07281585228004,0 120.6730180668395,24.08235262005511,0 120.6642637776076,24.08350349065065,0 120.638199218488,24.06496853384611,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>大里C區</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.6458284024941,24.01396083413702,0 120.65473339387,23.95691044584308,0 120.6695023287645,23.96279319547441,0 120.6696354894913,23.99300434124395,0 120.6458284024941,24.01396083413702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>北斗東</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.6205726139434,23.97698613045806,0 120.6012943445475,23.94247460612074,0 120.5874507192927,23.80798015916665,0 120.6451740534166,23.79822309108539,0 120.6482946098451,23.95414108599085,0 120.6205726139434,23.97698613045806,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>北斗二林</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.6008993219428,23.94204492342796,0 120.4509046206458,23.95780287456897,0 120.4077288030825,24.05932278432357,0 120.350277317231,23.83629108837361,0 120.3981327225842,23.84117575060935,0 120.5876103340756,23.80732296597275,0 120.6008993219428,23.94204492342796,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>禁止進入區域</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.5487550568872,23.93342842970176,0 120.5188121936138,23.91271133500346,0 120.4858058329948,23.8585433024043,0 120.4829481861321,23.84505147971055,0 120.5104821909505,23.84514972079941,0 120.5402889035681,23.86772528147549,0 120.5598290509602,23.92072297622979,0 120.5546580826821,23.93240751786485,0 120.5487550568872,23.93342842970176,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>濁水溪空域</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.2950126376976,23.85120385827371,0 120.2801737745374,23.80175208092562,0 120.4779078361539,23.78944616627081,0 120.6070398098858,23.76619111759926,0 120.6445042222309,23.79795797791556,0 120.4860541970081,23.82552487047838,0 120.3978929221213,23.84086156846982,0 120.3505693527371,23.83581041731931,0 120.2950126376976,23.85120385827371,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
