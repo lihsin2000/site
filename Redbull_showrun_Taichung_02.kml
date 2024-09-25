@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Redbull_showrun_Taichung_01.kml</name>
+	<open>1</open>
+	<StyleMap id="line-1267FF-5000-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-1267FF-5000-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-1267FF-5000-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hospitals">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hospitals">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Route</name>
+		<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				120.63492,24.16108,0 120.63489,24.16099,0 120.63561,24.16071,0 120.63618,24.16044,0 120.63634,24.16035,0 120.63673,24.16012,0 120.63726,24.15986,0 120.63828,24.15930000000001,0 120.63898,24.15889,0 120.64033,24.15816,0 120.64121,24.15768,0 120.64168,24.15743,0 120.64185,24.15734,0 120.64255,24.15693,0 120.64282,24.15677000000001,0 120.643,24.15667,0 120.64325,24.15655,0 120.64339,24.15648,0 120.64386,24.15623,0 120.64391,24.15638,0 120.64333,24.15668,0 120.64311,24.1568,0 120.64296,24.15689,0 120.64243,24.15717,0 120.6419,24.15749,0 120.64175,24.15756,0 120.64124,24.15784,0 120.64046,24.15826,0 120.63959,24.15873,0 120.63908,24.15901,0 120.63699,24.1602,0 120.6364,24.1605,0 120.63624,24.16059,0 120.6361,24.16065,0 120.63571,24.16086,0 120.63556,24.16092,0 120.63543,24.16098,0 120.63495,24.16117,0 120.63493,24.16109,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>林新醫院</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6403308,24.148976,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>中山附醫</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6498748,24.1214336,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>臺中醫院</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6763233,24.1405666,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>臺中醫院</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6804919,24.1572247,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>中港澄清</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6816457,24.1428054,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>臺中榮總</name>
+		<styleUrl>#msn_hospitals</styleUrl>
+		<Point>
+			<coordinates>120.6045116,24.1846146,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
